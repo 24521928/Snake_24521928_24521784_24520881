@@ -1,4 +1,4 @@
-import pygame
+
 
 def VeKhung(screen, width, height):
     """Vẽ một đường viền đơn giản quanh khu vực chơi."""
