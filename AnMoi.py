@@ -1,8 +1,6 @@
 import random
 
-# ==========================
-# Hàm sinh mồi mới
-# ==========================
+
 def AnMoi(snake_body, width, height, size):
     while True:
         x = random.randrange(1, (width // size) - 1) * size

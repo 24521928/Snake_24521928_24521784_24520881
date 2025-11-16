@@ -11,7 +11,7 @@ from Snake import Snake
 def main():
     pygame.init()
 
-    width, height = 600, 400
+    width, height = 600, 1000
     size = 20  # kích thước 1 ô
 
     screen = pygame.display.set_mode((width, height))
