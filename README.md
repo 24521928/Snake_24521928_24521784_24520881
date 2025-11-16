@@ -10,5 +10,5 @@
   2. SV3 chỉnh sửa AnMoi và main 
 3. Sau khi SV2, SV3 commit, push, và tạo pull request cho branch của mình xong.
   1.  SV1 tiến hành accept pull request của SV2 trước. Merge thành công.
-  2.  SV2 tiến hành accept pull request của SV3: Xảy ra Conflict. SV1 tiến hành resolve bằng cách so sánh chỉnh sửa trên file main: Giữ cả 2 thay đổi ở 2 branch.
-  3.  Conflict được resolved, SV1 thử Pull về và chạy: Kết quả chương trình chạy thành công.  
+  2.  SV2 tiến hành accept pull request của SV3: Không xảy ra Conflict. Merge thành công.
+  3.  SV1 thử Pull về và chạy: Kết quả chương trình chạy thành công.  
