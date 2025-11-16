@@ -3,7 +3,7 @@ import pygame
 from VeKhung import VeKhung
 from AnMoi import AnMoi
 from HelperFunctions import DrawButton
-from Snake import Snake
+from Snake import Snake 
 
 def VeKhung(screen, width, height):
     """Vẽ một đường viền đơn giản quanh khu vực chơi."""
@@ -11,11 +11,11 @@ def VeKhung(screen, width, height):
 
 # ==========================
 # MAIN GAME
-# ==========================
+# ==========================   
 def main():
     pygame.init()
 
-    width, height = 600, 400
+    width, height = 600, 1000
     size = 20  # kích thước 1 ô
 
     screen = pygame.display.set_mode((width, height))
